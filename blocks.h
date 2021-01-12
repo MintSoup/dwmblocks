@@ -85,6 +85,7 @@ void temperature(char *output) {
 	char temp[7];
 	fgets(temp, 7, f);
 	sprintf(output, " %.2s°C", temp);
+	fclose(f);
 }
 
 void date(char *output) {
