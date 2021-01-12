@@ -10,7 +10,7 @@ void showtime(char *output);
 static const Block blocks[] = {
 	{"/\x02", "volumeicon", NULL, 0, 10, 1},
 	{"/\x07", NULL, batterystatus, 30, 11, 0},
-	{"/\x02", NULL, temperature, 2, 0, 0},
+	{"/\x02", NULL, temperature, 1, 0, 0},
 	{"/\x07", NULL, date, 1, 0, 0},
 	{"/\x02", NULL, showtime, 1, 0, 0},
 };
