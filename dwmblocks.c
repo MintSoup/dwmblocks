@@ -4,6 +4,9 @@
 #include <unistd.h>
 #include <signal.h>
 #include <time.h>
+#include <dirent.h>
+#include <stdbool.h>
+
 #ifndef NO_X
 #include <X11/Xlib.h>
 #endif
